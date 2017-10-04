@@ -18,6 +18,16 @@ int main()
   */
 
   //PUT YOUR CODE BELOW THIS LINE
+  int rows = 0;
+  int cols = 0;
+  int max = wordGrid.size();
+  for(int rows = 0;rows < max; rows++)
+  {
+    for(int cols = 0;cols < max; cols++)
+    {
+        cout<<"Row "<<rows<<"Column "<<cols<<"is "<<wordGrid[rows][cols]<<endl;
+    }
+  }
   //that prints each element of the matrix in the
   //following format:
   //Row _ Column _ is _
